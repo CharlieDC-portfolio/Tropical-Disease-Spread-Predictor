@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+*{padding: 0; margin: 0; box-sizing: border-box;}
+
+body{
+  height: 900px;
+  background-image: url('https://images.pexels.com/photos/2993128/pexels-photo-2993128.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+header {
+	text-align: center;
+	width: 100%;
+	height: auto;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	overflow: hidden;
+	border-radius: 0 0 85% 85% / 30%;
+}
+
+header .overlay{
+	width: 100%;
+	height: 100%;
+	padding: 150pt;
+	color: #FFF;
+	text-shadow: 3px 3px 3px #1b1b1b;
+}
+
+h1 {
+	font-family: 'Times New Roman';
+	font-size: 80px;
+	margin-bottom: 30px;
+}
+
+h3, p {
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 30px;
+}
+
+button {
+	border: none;
+	outline: none;
+	padding: 10px 20px;
+	border-radius: 50px;
+	color: #333;
+	background: #fff;
+	margin-bottom: 50px;
+	box-shadow: 0 3px 20px 0 #0000003b;
+}
+button:hover{
+	cursor: pointer;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  width: 100%;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="topnav">
+  <a class="active" href="127.0.0.0.1">Home</a>
+  <a href="/StatsPage">Statistics</a>
+  <a href="/PredictPage">Prediction</a>
+  <a href="/InfoPage">Info</a>
+</div>
+
+<header>
+	<div class="overlay">
+    <h1>Welcome</h1>
+    <h3>Predictive Early Warning System and Information Hub for Diseases in Vietnam</h3>
+    <p>This application will allow you to visualise climate and disease statistics from previous years. Predict the spread of disease during regular and extreme weather. As well as provide a concise source for information regarding some major prevalent in Vietnam diseases.</p>
+	</div>
+</header>
+
+
+</body>
+</html>
